@@ -38,17 +38,17 @@ img {
   position: absolute;
   top: 50%;
   top: calc(
-    min(500px, 100vw) / 16 * 9 / 2 + 1rem
+    min(400px, 100vw) / 16 * 9 / 2 + 1rem
   ); /* centre verticalement ~50% vertical */
   transform: translateY(-50%); /* methode du point mort */
   width: 2rem;
   height: 2rem;
-  background: rgba(0,0,0,0.5);
-  border-radius: 50%;
-  border: none;
+  background-color: rgb(0, 0, 0);
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 35%;
   display: grid;
   place-content: center;
-  color: #fff;
+  color: #ffffff;
 }
 
 .carrousel_btn-avant {
@@ -65,6 +65,9 @@ img {
     padding: 0; /* enlève les padding par défaut */
     list-style: none; /* enlève les puces par défaut */
     gap: 1rem; /* espace entre les enfants */
+    
+}
+.caroussel_liens {
     
 }
 .actif {
