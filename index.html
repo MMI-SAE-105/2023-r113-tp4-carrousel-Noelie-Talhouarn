@@ -69,7 +69,9 @@ img {
 }
 </style>
 <body>
-    <div class="carrousel" x-data="{}">
+    <div class="carrousel" x-data="{
+       hrefCourant: '#ecran-1', 
+    }">
         <button class="carrousel_btn carrousel_btn-avant" aria-label="slide précedant"
             @click="$refs.parent.scrollBy(+$refs.parent.clientWidth, 0)"
         >
