@@ -67,11 +67,20 @@ img {
     gap: 1rem; /* espace entre les enfants */
     
 }
-.caroussel_liens {
-    
+.caroussel_lien {
+    display: inline-block; /* permet de mettre les enfants sur une ligne */
+    padding: 6px; /* espace entre le texte et le bord */
+    border: 2px solid rgb(0, 0, 0); /* bordure */
+    border-radius: 0.5rem; /* arrondi de la bordure */
+    text-decoration: none; /* enlève le soulignement par défaut */
+    color: rgb(255, 253, 253); /* couleur du texte */
+    transition: background-color 0.3s ease; /* animation de transition */
+    background-color: rgb(2, 2, 2);
 }
 .actif {
-   background-color: rgb(230, 0, 255);
+   background-color: rgb(219, 217, 191);
+   text-decoration: none; /* enlève le soulignement par défaut */
+    color: rgb(0, 0, 0); /* couleur du texte */
 }
 </style>
 <body>
