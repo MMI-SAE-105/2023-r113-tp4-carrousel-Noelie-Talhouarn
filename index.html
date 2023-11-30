@@ -27,13 +27,17 @@ img {
     flex: none;  /* permet de garder toute la largeur du parent */
     scroll-snap-align: start; /* aligne les enfants par blocs */
     margin-bottom: 13px;
-    border: 2px solid rgb(0, 0, 0); /* bordure */
+    
 }
 .carrousel_ecran figure {
     margin: 0; /* enlève les marges par défaut */
     display: flex; /* permet de mettre les enfants sur une ligne */
     align-items: center; /* centre verticalement les enfants */
     flex-direction: column; /* aligne les enfants verticalement */
+    border: 2px solid rgb(0, 0, 0); /* bordure */
+    text-decoration: none; /* enlève le soulignement par défaut */
+    color: rgb(6, 6, 6); /* couleur du texte */
+    background-color: rgb(219, 217, 191);
     gap: 0.5rem; /* espace entre les enfants */
 }
 .carrousel {
@@ -79,7 +83,6 @@ img {
     border-radius: 0.5rem; /* arrondi de la bordure */
     text-decoration: none; /* enlève le soulignement par défaut */
     color: rgb(255, 253, 253); /* couleur du texte */
-    transition: background-color 0.3s ease; /* animation de transition */
     background-color: rgb(2, 2, 2);
 }
 .actif {
